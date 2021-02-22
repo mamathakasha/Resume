@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+}
+
+.container {
+	height: 300px;
+	width: 300px;
+	background-color: grey;
+	position: relative;
+	/*if we want to set all in one place then define only top to zero pixel*/
+}
+
+.red {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	display: inline-block;
+	position: relative;
+	left: 200px;
+	position: relative;
+}
+
+.blue {
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	display: inline-block;
+	position: relative;
+	right: 100px;
+}
+
+.yellow {
+	height: 100px;
+	width: 100px;
+	background-color: Yellow;
+	display: inline-block;
+	position: relative;
+	right: 100px;
+}
+
+.orange {
+	height: 100px;
+	width: 100px;
+	background-color: orange;
+	display: inline-block;
+	position: Absolute;
+	/* when the position is said as fixed even if we move
+	 the complete website the block you define remains in 
+	 the same position as that is fixed in that position*/
+}
+
+.black {
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	display: inline-block;
+	position: Absolute;
+	left: 100px;
+	top: 100px;
+}
+
+.purple {
+	height: 100px;
+	width: 100px;
+	background-color: purple;
+	display: inline-block;
+	position: Absolute;
+	left: 200px;
+	top: 200px;
+}
